@@ -9,7 +9,7 @@ export async function getStaticProps(context) {
   // Device React
   const deviceIsMobile = isMobile;
 
-  const deviceType = deviceIsMobile ? 'Yes, I am a mobile' : 'Nope, Desktop!';
+  const deviceType = deviceIsMobile ? 'Yes, I am a mobile' : 'Nope, you are a Desktop!, currently supporting mobile only';
 
   return {
     props: {
